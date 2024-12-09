@@ -34,7 +34,6 @@ print "part 1: $sum\n";
 
 $sum = 0;
 
-my $f = @f/3;
 F: for my $f (0 .. @f/3 - 1) {
     for my $e (0 .. @e/2 - 1) {
         next if $e[2*$e + 1] < $f[3*$f + 2];
