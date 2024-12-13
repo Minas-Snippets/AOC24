@@ -1,7 +1,5 @@
 #!/usr/bin/perl
 
-use bigint; 
-
 my @equations;
 
 while(<>) {
